@@ -24,6 +24,12 @@ type QuestdbColumn struct {
 	Type string `json:"type"`
 }
 
+type QuestdbError struct {
+	Error    string `json:"error"`
+	Position int64  `json:"position"`
+	Query    string `json:"query"`
+}
+
 type QuestdbResponse struct {
 	Columns []QuestdbColumn `json:"columns"`
 	Count   int             `json:"count"`

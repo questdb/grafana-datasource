@@ -12,6 +12,7 @@ import (
 	"github.com/grafana/grafana-plugin-sdk-go/backend"
 	"github.com/grafana/grafana-plugin-sdk-go/backend/datasource"
 	"github.com/grafana/grafana-plugin-sdk-go/backend/instancemgmt"
+	"github.com/questdb/questdb-grafana/pkg/helpers"
 )
 
 func NewDatasource() datasource.ServeOpts {
@@ -76,7 +77,8 @@ func (ds *Datasource) QueryData(ctx context.Context, req *backend.QueryDataReque
 			return res, nil
 		}
 
-		res.Responses[q.RefID] = s.client.query(qm.QueryText, q.RefID)
+		query := helpers.BuildQuery(qm.QueryText, q)
+		res.Responses[q.RefID] = s.client.run(query, q.RefID)
 	}
 
 	return res, nil
