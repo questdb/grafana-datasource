@@ -142,20 +142,20 @@ export const QueryEditor = ({ data, onChange, onRunQuery, query, ...rest }: Prop
         </div>
       </div>
 
-      <div class="gf-form-inline">
-        <div class="gf-form">
-          <label class="gf-form-label query-keyword width-16">
+      <div className="gf-form-inline">
+        <div className="gf-form">
+          <label className="gf-form-label query-keyword width-16">
             <span>
               <Icon name="info-circle" />
               &nbsp;Run your query with: <code>Shift+Enter</code>
             </span>
           </label>
         </div>
-        <div class="gf-form gf-form--grow">
-          <div class="gf-form-label gf-form-label--grow"></div>
+        <div className="gf-form gf-form--grow">
+          <div className="gf-form-label gf-form-label--grow"></div>
         </div>
-        <div class="gf-form">
-          <label class="gf-form-label query-keyword width-6 pointer" onClick={handleHelpClick}>
+        <div className="gf-form">
+          <label className="gf-form-label query-keyword width-6 pointer" onClick={handleHelpClick}>
             Show Help
             <Icon name={help ? 'angle-down' : 'angle-right'} />
           </label>
@@ -163,8 +163,8 @@ export const QueryEditor = ({ data, onChange, onRunQuery, query, ...rest }: Prop
       </div>
 
       {help && (
-        <div class="gf-form">
-          <pre class="gf-form-pre alert alert-info">{COPY.help}</pre>
+        <div className="gf-form">
+          <pre className="gf-form-pre alert alert-info">{COPY.help}</pre>
         </div>
       )}
 
