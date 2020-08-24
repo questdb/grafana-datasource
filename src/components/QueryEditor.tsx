@@ -86,7 +86,7 @@ export const QueryEditor = ({ data, onChange, onRunQuery, query, ...rest }: Prop
     }
 
     editor.focus();
-    handleChange(COPY.defaultQuery);
+    handleChange(query.queryText || COPY.defaultQuery);
 
     return () => {
       disposables.forEach(disposable => {
