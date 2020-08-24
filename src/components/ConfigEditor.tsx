@@ -2,7 +2,7 @@ import { DataSourcePluginOptionsEditorProps } from '@grafana/data';
 import { LegacyForms } from '@grafana/ui';
 import React, { ChangeEvent, useCallback } from 'react';
 
-import { QuestdbOptions } from './types';
+import { QuestdbOptions } from '../types';
 
 const { FormField } = LegacyForms;
 
