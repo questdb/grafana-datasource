@@ -24,7 +24,7 @@ docker run -p 9000:9000 questdb/questdb
 
 Specify the endpoint on which QuestDB is running:
 
-![QuestDB Datasource Configuration](src/img/datasource-config.png)
+![QuestDB Datasource Configuration](https://raw.githubusercontent.com/questdb/grafana-datasource/master/src/img/datasource-config.png)
 
 ## Query Editor
 
@@ -35,7 +35,7 @@ column. Additionally, you can use the following macros:
 - `$__timeFilter(column)`; column > '2020-08-21T15:11:32Z' AND column < '2020-08-21T16:11:32Z'
 - `$__interval_ms`; a duration in milliseconds suffixed with an "M": 1000M
 
-![QuestDB Datasource Configuration](src/img/query-editor.png)
+![QuestDB Datasource Configuration](https://raw.githubusercontent.com/questdb/grafana-datasource/master/src/img/query-editor.png)
 
 At the bottom of the query editor, you will find extra help about this plugin's support of Grafana's built-in macros.
 
@@ -47,5 +47,4 @@ At the bottom of the query editor, you will find extra help about this plugin's 
 
 # How to build the plugin
 
-If you want to build the plugin locally or contribute to the code, please follow our [CONTRIBUTING.md](/CONTRIBUTING.md)
-guidelines.
+If you want to build the plugin locally or contribute to the code, please follow our [CONTRIBUTING.md](https://github.com/questdb/grafana-datasource/blob/master/CONTRIBUTING.md) guidelines.
