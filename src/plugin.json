@@ -1,7 +1,7 @@
 {
   "type": "datasource",
   "name": "QuestDB",
-  "id": "questdb",
+  "id": "questdb-datasource",
   "category": "tsdb",
 
   "metrics": true,
@@ -10,7 +10,7 @@
   "alerting": false,
   "backend": true,
 
-  "executable": "gpx_questdb",
+  "executable": "gpx_questdb-datasource",
 
   "info": {
     "description": "Open source time series database",
