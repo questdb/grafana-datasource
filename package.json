@@ -1,6 +1,6 @@
 {
   "name": "questdb-grafana",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
