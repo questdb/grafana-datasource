@@ -96,7 +96,7 @@ GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=questdb
 
 ## Support / Contact
 
-[Slack Channel](https://join.slack.com/t/questdb/shared_invite/enQtNzk4Nzg4Mjc2MTE2LTEzZThjMzliMjUzMTBmYzVjYWNmM2UyNWJmNDdkMDYyZmE0ZDliZTQxN2EzNzk5MDE3Zjc1ZmJiZmFiZTIwMGY)
+[Slack Channel](https://slack.questdb.io)
 
 ## Roadmap
 
