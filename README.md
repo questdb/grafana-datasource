@@ -1,8 +1,9 @@
 # QuestDB Data Source
 
 QuestDB supports connecting to Grafana via the Postgres endpoint.
-[Documentation link](https://questdb.io/docs/third-party-tools/grafana/)
-[Grafana + QuestDB Tutorial](https://questdb.io/blog/time-series-monitoring-dashboard-grafana-questdb/)
+
+- [Documentation link](https://questdb.io/docs/third-party-tools/grafana/)
+- [Grafana + QuestDB Tutorial](https://questdb.io/blog/time-series-monitoring-dashboard-grafana-questdb/)
 
 # Future plans
 
